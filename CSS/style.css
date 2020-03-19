@@ -1,0 +1,21 @@
+body {
+    background-image: url(../IMG/restaurant.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: black;
+}
+
+.container {
+    width: 50%;
+}
+
+.formColor {
+    position: fixed;
+    background-color: #6A8CB3;
+    opacity: 0.90;
+    width: 50%;
+}
+
+.btn {
+    background-color: #F2B077;
+}
