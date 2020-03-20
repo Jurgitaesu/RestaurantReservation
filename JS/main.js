@@ -12,7 +12,7 @@ var restaurant = {
         if ((this.maximumGuests - this.reserved) >= guests) {
             swal("You made a reservation for " + guests + " guest /-s");
             this.reserved += guests;
-            this.availableReservations = this.maximumGuests - guests;
+            this.availableReservations = this.availableReservations - guests;
             availableReservations.textContent = this.availableReservations;
         } else {
             swal("Please pick a lower number of guests.");
